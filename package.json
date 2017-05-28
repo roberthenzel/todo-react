@@ -6,7 +6,8 @@
   "scripts": {
     "test": "npm test",
     "build": "webpack --config webpack.config.js",
-    "start": "webpack-dev-server --inline --open --hot"
+    "start": "webpack-dev-server --open --inline --hot ",
+    "serve": "webpack-dev-server --host 0.0.0.0 --port 80 --inline --hot "
   },
   "author": "Robert Henzel",
   "license": "MIT",

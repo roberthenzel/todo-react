@@ -4,7 +4,6 @@
 
 ## Usage
 # Clone repository
-
 git clone https://github.com/ropurt/todo-react.git
 
 # Install dependencies

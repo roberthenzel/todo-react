@@ -3,7 +3,7 @@ var webpack = require('webpack')
 
 module.exports = function(env) {
     return {
-        entry: ['webpack-dev-server/client?http://0.0.0.0:8080', 'webpack/hot/only-dev-server', './src/index.js'],
+        entry: ['./src/index.js'],
         output: {
             filename: 'bundle.js',
             path: path.resolve('./')
@@ -16,6 +16,12 @@ module.exports = function(env) {
               { test: /\.js$/, exclude: /node_modules/, loader: "babel-loader" },
               { test: /\.css$/, use: [{ loader: "style-loader" }, { loader: "css-loader" }]}
           ]
-        }
+        },
+        devServer: {
+          contentBase: '.',
+          host: 'localhost',
+          port: 8080,
+          disableHostCheck: true,
+        },
     }
 }
