@@ -1,3 +1,32 @@
-body {
-    background: yellow;
+.todoAppContainer {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -200px;
+  margin-left: -150px;
+  width: 300px;
+  height: inherit;
+  background-color: white;
+}
+
+.todoAppHeader {
+  text-align: center;
+}
+.todoList input {
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #FFF;
+}
+.todoList button {
+  padding: 10px;
+  font-size: 16px;
+  margin: 10px;
+  background-color: #50e0e0;
+  color: #FFF;
+  border: 2px solid #50e0e0;
+}
+.todoList button:hover {
+  background-color: #009494;
+  border: 2px solid #009494;
+  cursor: pointer;
 }

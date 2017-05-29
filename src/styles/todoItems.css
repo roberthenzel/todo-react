@@ -1,0 +1,27 @@
+.theList {
+  list-style: none;
+  padding-left: 15%;
+  width: 70%;
+}
+.theList li {
+  color: #FFFFFF;
+  background-color: #50e0e0;
+  padding: 15px;
+  margin-bottom: 15px;
+  font-weight: bold;
+  font-size: 150%;
+}
+.theList button {
+  color: #FFFFFF;
+    background-color: #50e0e0;
+    font-weight: bold;
+    border: 2px solid #50e0e0;
+    position: relative;
+    font-size: 100%;
+}
+.theList button:hover {
+  background-color: #009494;
+  border: 2px solid #009494;
+  cursor: pointer;
+  color: #dfd2323
+}
